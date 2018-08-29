@@ -1,0 +1,14 @@
+ldap:
+  server: server_ip
+  port: 389
+  user: "cn=admin,dc=example,dc=com"
+  password: "YOUR PASSWORD HERE"
+companies:
+  - name: company1
+    email: "user@example.com"
+    zimbra_server: "https://zimbra.example.com:443"
+    zimbra_preauth_token: AUTHTOKEN GOES HERE
+  - name: company2
+    email: "user@foo.com"
+    zimbra_server: "https://zimbra.foo.com:443"
+    zimbra_preauth_token: AUTHTOKEN GOES HERE
